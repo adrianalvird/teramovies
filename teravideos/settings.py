@@ -25,7 +25,11 @@ SECRET_KEY = 'django-insecure-%u6$mt3w-4hniyai6t1a@o&ej1s1ql_3hf1i63p6nu&ta3!k56
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = True
 
-ALLOWED_HOSTS = []
+ALLOWED_HOSTS = [
+
+    'teramovies.herokuapp.com'
+
+]
 
 
 # Application definition
